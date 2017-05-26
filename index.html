@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<title>Gabriel's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#skills" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-code w3-xxlarge"></i>
+    <p>SKILLS</p>
+  </a>
+  <a href="#ongoing" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-spinner w3-xxlarge"></i>
+    <p>ONGOING PROJECTS</p>
+  </a> 
+  <a href="#client" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-briefcase w3-xxlarge"></i>
+    <p>CLIENT PROJECTS</p>
+  </a>
+  <a href="#school" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-book w3-xxlarge"></i>
+    <p>SCHOOL PROJECTS</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#skills" class="w3-bar-item w3-button" style="width:25% !important">SKILLS</a>
+    <a href="#ongoing" class="w3-bar-item w3-button" style="width:25% !important">ONGOING PROJECTS</a>
+    <a href="#client" class="w3-bar-item w3-button" style="width:25% !important">CLIENT PROJECTS</a>
+	<a href="#school" class="w3-bar-item w3-button" style="width:25% !important">SCHOOL PROJECTS</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h1 class="w3-text-light-grey">HELLO WORLD</h1>
+    <hr class="w3-opacity">
+    <p>I am Gabriel Chia Ding Feng. Fresh graduate from Singapore Polytechnic; Diploma in Game Design and Development. 
+	Thoughout my 3 years in SP I have been taught Game Development. But that isn't my only skillset as I have started to spread out from there due to my curiosity in other aspects of IT. Have a look at my projects below.
+    </p>
+
+	<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="skills">
+    
+    <h3 class="w3-padding-16 w3-text-light-grey">Skills</h3>
+    
+	<p class="w3-wide">Actionscript 3</p>
+    <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:100%">
+	</div></div>
+	
+	<p class="w3-wide">C#</p>
+    <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:100%">
+	</div></div>
+	
+	<p class="w3-wide">C++</p>
+    <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:40%">
+	</div></div>
+	
+	<p class="w3-wide">HTML</p>
+    <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:50%">
+	</div></div>
+	
+	<p class="w3-wide">Java</p>
+	<div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:60%">
+	</div></div>
+	
+	<p class="w3-wide">Javascript</p>
+    <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:90%">
+	</div></div>
+	
+    <p class="w3-wide">PHP</p>
+    <div class="w3-white">
+    <div class="w3-dark-grey" style="height:28px;width:70%">
+	</div></div>	
+	<br>
+	<p class="w3-wide">Total amount of experience in Programming: 2.5 Years</p>	
+	
+	<a href="Resume.pdf" download class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-download"></i>
+    <p>Download Resume</p>
+    </a> 
+	</div>
+	
+	<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="ongoing">
+	<h1 class="w3-text-light-grey">Ongoing Development</h1>
+	<p> The current projects that I am working on. </p>
+	<hr>
+	
+	<h2 class="w3-text-light-grey">Pump It Up:Prime Emulator</h2>
+    <div class = "w3-twothird">
+	<p> Software used: Unity Engine</p> 
+    <p> Language used: C#</p> 
+	<p> Description: Pump It Up: Prime 2; A dual-player rhythm arcade dancing game that I play as my hobby.
+	This is a project where I coded the whole game from scratch for fun in my spare time. Besides the usual mode of input (Keyboard, Dancepad),
+    I also intergrated it with kinect. The kinect is able to track your feet and sense where it is and you can play it like you do in the arcade.	
+	
+	</p>
+	</div>
+	
+	<div class = "w3-third w3-padding-large">
+	<p> DEMO - Single Song </p>
+	<iframe width="373.3" height="210" src="https://www.youtube.com/embed/TZU0Y3lQpas" frameborder="0"></iframe>
+	
+	<p> DEMO - Double Song </p>
+	<iframe width="373.3" height="210" src="https://www.youtube.com/embed/nSGwyY_6eMc" frameborder="0"></iframe>
+	
+	<p> DEMO - Kinect Input </p>
+	<h1> PLACEHOLDER </h1>
+	</div>	
+	</div>
+	
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="client">
+	<h1 class="w3-text-light-grey">Client Projects</h1>
+	<p>Client Projects that I have been a part of.</p>
+	<hr>
+	
+	<h2 class="w3-text-light-grey">Open Broadcaster Software (OBS) Plugin</h2>
+    <div class = "w3-twothird">
+	<p> Software Used: Visual Studios </p>
+	<p> Language Used: C# </p>
+    <p> Description: The first side project I took after graduation. In this project, I am required to do an app that can speak to Open Brodcaster Software (OBS) while the person is streaming.
+	</p>
+	</div>
+	
+	<div class = "w3-third w3-padding-large">
+	<p> DEMO - Application </p>
+	<iframe width="373.3" height="210" src="https://www.youtube.com/embed/GU3O9uLbvho" frameborder="0" allowfullscreen></iframe>
+	</div>	
+
+	
+	<h2 class="w3-text-light-grey">Internship Project - Reelblade</h2>
+    <div class = "w3-twothird">
+	<p> Software Used: Unity Engine </p>
+	<p> Language Used: C# </p>
+    <p> Description: Not a client project, but rather, my internship project. This was what I did during my internship at NUS. For this game, you hold a sword which remotely controls the sword in game.
+	At that time, the game was almost fully completed. I only went there to fix some bugs and changed some of the code to change how the sword is displayed as a intern. 
+	</p>
+	</div>
+	
+	<div class = "w3-third w3-padding-large">
+	<p> DEMO - Gameplay (TO BE ADDED) </p>
+    <iframe width="373.3" height="210" frameborder="0" allowfullscreen></iframe>
+	</div>
+	</div>
+	
+	<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="school">
+	<h1 class="w3-text-light-grey">School Projects</h1>
+	<p>School Projects that I have been a part of before graduating.</p>
+	<hr>
+	
+	<h2 class="w3-text-light-grey">Amazing Race</h2>
+    <div class = "w3-twothird">
+	<p> Software Used: Unity Engine </p>
+	<p> Language Used: C#, PHP </p>
+    <p> Description: An app that required users to go to points on map to trigger the next pitstop. Players can make their own amazing races, find lobbies and play with friends.
+	However, the Location Tracking for this game was slightly buggy.
+	</p>
+	</div>
+	
+	<div class = "w3-third w3-padding-large">
+	<p> DEMO - (TO BE ADDED) </p>
+    <iframe width="373.3" height="210" frameborder="0" allowfullscreen></iframe>
+	</div>
+	
+	<h2 class="w3-text-light-grey">Rhythm-Physics Game</h2>
+    <div class = "w3-twothird">
+	<p> Software Used: Unity Engine </p>
+	<p> Language Used: C# </p>
+    <p> Description: A rhythm-physics game with 6 physics minigames and the level is controlled by the music.
+	You can choose which music for whichever level you want. 
+	This was also the first game whereby I experimented and created a experimental music engine, which will later become refined into <a href="#ongoing" <p> Pump It Up: Prime 2 Emulator</a>
+	</p>
+	</div>
+	
+	<div class = "w3-third w3-padding-large">
+	<p> DEMO - (TO BE ADDED) </p>
+    <iframe width="373.3" height="210" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<h2 class="w3-text-light-grey">Event Manager</h2>
+    <div class = "w3-twothird">
+	<p> Software Used: Unity Engine </p>
+	<p> Language Used: C# </p>
+    <p> Description: A scripted tool that allows non-programmers to plot out events that will happen without a need to touch code.
+	</p>
+	</div>
+	
+	<div class = "w3-third w3-padding-large">
+	<p> DEMO - (TO BE ADDED) </p>
+    <iframe width="373.3" height="210" frameborder="0" allowfullscreen></iframe>
+	</div>
+	
+	<h2 class="w3-text-light-grey">AI</h2>
+    <div class = "w3-twothird">
+	<p> Software Used: Unity Engine </p>
+	<p> Language Used: C# </p>
+    <p> Description: Making hostile AI reactive; reacts to players in a smart way. Hiding from players, finding cover to hide, knowing when to run.
+	</p>
+	</div>
+	
+	<div class = "w3-third w3-padding-large">
+	<p> DEMO - (TO BE ADDED) </p>
+    <iframe width="373.3" height="210" frameborder="0" allowfullscreen></iframe>
+	</div>
+	
+	<h2 class="w3-text-light-grey">Clingy Cubes</h2>
+    <div class = "w3-twothird">
+	<p> Software Used: Unity Engine </p>
+	<p> Language Used: Javascript </p>
+    <p> Description: A game where you control one cube and must attach yourself to other cubes to be able to hit all the trigger points in the level (The smaller cubes). It was my first project in Unity.
+	</p>
+	</div>
+	
+	<div class = "w3-third w3-padding-large">
+	<p> DEMO - (TO BE ADDED) </p>
+    <iframe width="373.3" height="210" frameborder="0" allowfullscreen></iframe>
+	</div>
+	
+	
+	<h2 class="w3-text-light-grey">Flash Games</h2>
+    <div class = "w3-twothird">
+	<p> Software Used: Adobe Flash </p>
+	<p> Language Used: Actionscript 3 </p>
+    <p> Description: The very first game-engine which I learnt how to use.
+    These two games are the first two games I made with flash.
+    </p>
+	<p>Plantation is about a scientist who is constantly mining gold to be able to upgrade his weapons to defend against the plant horde. 
+	</p>	
+    <p>Pixel Twins is about a character with two different modes. The black character moves at a faster speed and can cloak, while the purple one moves at a slower speed and can reveal an area around the character.
+	The aim is to get to the top of the tower and avoid the four guardians which can cast status effects on you if you see them.
+	</p>
+	</div>
+	
+	<div class = "w3-third w3-padding-large">
+	<p> DEMO - Plantation </p>
+    <iframe width="373.3" height="210" src="https://www.youtube.com/embed/mDNBLYH_Sts" frameborder="0" allowfullscreen></iframe>
+	<p> DEMO - Pixel Twins </p>
+	<iframe width="373.3" height="210" src="https://www.youtube.com/embed/Qw2gyVdmSCU" frameborder="0" allowfullscreen></iframe>
+	</div>	
+	</div>
+		
+</div>
+</body>
+</html>
